@@ -63,7 +63,7 @@ $splitLagiver = explode('"', $splitver[1]);
 $judulnya = $splitLagiver[0];
 
 $pesan = $judulnya."\n".$linknya;
-$token = "1005291650:AAGv3Sn1CLmcdX86tk0ps34gZItLG-l68bA";
+$token = "1005291650:AAHzudD1TxWv8lisjZVi2_oJMHKsuL1t2y0";
 $chatid = "@eztekno";
 sendMessage($chatid, $pesan, $token);
 //Batas konfigurasi telegram
