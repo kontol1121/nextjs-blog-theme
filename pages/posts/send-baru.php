@@ -72,7 +72,7 @@ $consumerKey    = '3WFtexcaLSiNyTg2bfhR3AphA';
 $consumerSecret = 'vVfA9muOvuADxXC76eFyolym6iGvMYYFZKOg7nmJvslMWleZnG';
 $oAuthToken     = '1570770624-K5QsWHysIRNgi9NvxJLh8bLNl2aMYREOgnWR5sE';
 $oAuthSecret    = 'DazJDWJBWtY6UhbxtUWxuSKBWxyFnugluuYS0LmVYjhq4'; 
-require_once('twitteroauth/twitteroauth.php');
+require_once('twitteroauth.php');
 $tweet = new TwitterOAuth($consumerKey, $consumerSecret, $oAuthToken, $oAuthSecret);
 //Batas konfigurasi twitter
 
